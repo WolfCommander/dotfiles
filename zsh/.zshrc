@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/pl4sm/clones/oh-my-zsh
-export ZSH_CUSTOM=$HOME/pl4sm/dotfiles/zsh/custom
+export ZSH=$HOME/oh-my-zsh
+export ZSH_CUSTOM=$HOME/dotfiles/zsh/custom
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
