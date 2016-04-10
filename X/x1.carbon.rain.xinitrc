@@ -33,6 +33,7 @@ fi
 
 #bind keys using ~/xbindkeysrc
 #xbindkeys
+setxkbmap -option ctrl:nocaps
 
 while true; do
 	make -C ~/builds/dwm
