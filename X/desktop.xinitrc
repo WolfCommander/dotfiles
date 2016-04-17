@@ -14,12 +14,10 @@ fi
 #xscreensaver -nosplash &
 #conky -d
 setxkbmap -option ctrl:nocaps
-#exec awesome
-#exec gnome-session
 
 while true; do
-	make -C ~/builds/dwm
-	~/builds/dwm/dwm
+	make -C ~/builds/suckless/dwm
+	~/builds/suckless/dwm/dwm
 	sleep 1
 done &
 
