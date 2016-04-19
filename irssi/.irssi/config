@@ -32,6 +32,15 @@ servers = (
     address = "irc.undernet.org";
     chatnet = "Undernet";
     port = "6667";
+  },
+  {
+    address = "irc.freenode.net";
+    chatnet = "Freenode";
+    port = "6697";
+    use_ssl = "yes";
+    ssl_capath = "/etc/ssl/certs/";
+    ssl_verify = "yes";
+    autoconnect = "yes";
   }
 );
 
@@ -56,6 +65,7 @@ chatnets = {
   };
   Freenode = {
     type = "IRC";
+    nick = "wolfcomm";
     max_kicks = "1";
     max_msgs = "4";
     max_whois = "1";
@@ -373,8 +383,10 @@ statusbar = {
 settings = {
   core = {
     real_name = "Unknown";
-    user_name = "gh0st9";
-    nick = "gh0st9";
+    user_name = "wolf";
+    nick = "wolfcommander";
+    hostname = "un.kno.wn";
   };
   "fe-text" = { actlist_sort = "refnum"; };
+  "fe-common/core" = { theme = "rain"; };
 };
