@@ -19,7 +19,6 @@ urxvt.url-launcher:     /usr/bin/chromium
 urxvt.matcher.button:  1
 !  - catch ugly URLs
 urxvt.cutchars:        `()'*<>[]{|}"
-
  
 ! Appearance
 !  - use a bitmap font
