@@ -25,7 +25,7 @@ urxvt.cutchars:        `()'*<>[]{|}"
 ! urxvt*font:        -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
 ! urxvt*boldFont:    -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-*-*
 !  - use xft for drawing fonts
-urxvt*font:       xft:DejaVu\ Sans\ Mono\ for\ Powerline:size=8:antialias=true:hinting=true,xft:Symbola:pixelsize=8:antialias=true:hinting=true
+urxvt*font:       xft:DejaVu Sans Mono for Powerline:size=8:antialias=true:hinting=true,xft:Symbola:pixelsize=8:antialias=true:hinting=true
 
 !  - pseudo transparency
 urxvt*shading:    5
