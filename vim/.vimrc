@@ -1,7 +1,11 @@
 execute pathogen#infect()
-let $PYTHONPATH='/usr/lib/python3.4/site-packages'	"for powerline
-set laststatus=2
+let $PYTHONPATH='/usr/lib/python3.5/site-packages'	"for powerline
 
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+
+set laststatus=2
 set ts=4
 set softtabstop=4
 set shiftwidth=4

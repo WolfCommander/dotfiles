@@ -19,17 +19,16 @@ urxvt.url-launcher:     /usr/bin/chromium
 urxvt.matcher.button:  1
 !  - catch ugly URLs
 urxvt.cutchars:        `()'*<>[]{|}"
-
  
 ! Appearance
 !  - use a bitmap font
 ! urxvt*font:        -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
 ! urxvt*boldFont:    -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-*-*
 !  - use xft for drawing fonts
-urxvt*font:       xft:DejaVu Sans\ Mono\ for\ Powerline:size=8:antialias=true:hinting=true
+urxvt*font:       xft:DejaVu Sans Mono for Powerline:size=8:antialias=true:hinting=true,xft:Symbola:pixelsize=8:antialias=true:hinting=true
 
 !  - pseudo transparency
-urxvt*shading:    20
+urxvt*shading:    5
 urxvt*transparent:true
 
 !urxvt*depth:		5
@@ -37,7 +36,7 @@ urxvt*transparent:true
 urxvt*background:       #000000
 urxvt*foreground:       #899CA1
 urxvt*cursorColor:      #6666CC
-urxvt*colorBD:          #C8B984
+urxvt*colorBD:          #bf7d00
 
 !black
 *color0:  #191919

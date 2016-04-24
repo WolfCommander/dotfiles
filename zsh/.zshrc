@@ -51,7 +51,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/shellscripts"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -88,7 +88,7 @@ SAVEHIST=1000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/mfernandez/.zshrc'
+zstyle :compinstall filename $HOME'/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -98,11 +98,10 @@ autoload -Uz promptinit
 promptinit
 #  prompt adam2
 
-alias ll='ls -alhF'
+alias ll='ls -alhHF'
 alias zz='source ~/.zshrc'
-alias v='urxvt -e alsamixer'
-alias nekokill='pkill neko; xsetroot -cursor_name left_ptr'
 alias vbox='vboxmanage'
+alias nekokill='pkill oneko; oneko-restore-cursor'
 
 export TERM='xterm-256color'
 export EDITOR='vim'

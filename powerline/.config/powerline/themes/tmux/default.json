@@ -2,15 +2,20 @@
 	"segments": {
 		"right": [
 			{
-				"function": "powerline.segments.common.wthr.weather",
-				"args": {
-					"unit": "F"
-				}
+				"function": "powerline.segments.common.net.hostname"
 			},
 			{
 				"function": "powerline.segments.common.time.date",
 				"args": {
 					"format": "%A, %d %B %Y %H:%m"
+				}
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"name": "time",
+				"args": {
+					"format": "%H:%M",
+					"istime": true
 				}
 			}
 		]
