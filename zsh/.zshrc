@@ -102,6 +102,7 @@ alias ll='ls -alhF'
 alias zz='source ~/.zshrc'
 alias v='urxvt -e alsamixer'
 alias nekokill='pkill neko; xsetroot -cursor_name left_ptr'
+alias vbox='vboxmanage'
 
 export TERM='xterm-256color'
 export EDITOR='vim'
