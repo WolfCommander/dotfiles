@@ -38,6 +38,8 @@ fi
 #conky -d
 setxkbmap -option ctrl:nocaps
 #xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+xset s 1800 1800
+xset dpms 3600 3600 3600
 nvidia-settings --load-config-only
 nvidia-settings -a [gpu:0]/GpuPowerMizerMode=1
 
