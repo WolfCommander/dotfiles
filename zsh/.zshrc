@@ -100,6 +100,7 @@ promptinit
 
 alias ll='ls -alhHF'
 alias zz='source ~/.zshrc'
+alias vbox='vboxmanage'
 alias nekokill='pkill oneko; oneko-restore-cursor'
 
 export TERM='xterm-256color'
