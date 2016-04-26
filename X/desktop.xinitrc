@@ -53,7 +53,7 @@ done &
 feh --bg-scale ~/wallpapers/anon-киберпанк-Баян-длиннопост-1867135.png
 
 while true; do
-	source ~/shellscripts/desktop.statusbar.sh
+	source ~/scripts/desktop.statusbar.sh
 done
 
 #exec gnome-session

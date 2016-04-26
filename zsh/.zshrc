@@ -51,7 +51,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/shellscripts"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/scripts"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -106,4 +106,5 @@ alias nekokill='pkill oneko; oneko-restore-cursor'
 export TERM='xterm-256color'
 export EDITOR='vim'
 export ZLE_RPROMPT_INDENT=0
+export http_proxy='http://squid:3128'
 screenfetch
