@@ -1,13 +1,11 @@
 {
 	"segments": {
 		"right": [
-			{
-				"function": "powerline.segments.common.net.hostname"
-			},
+			
 			{
 				"function": "powerline.segments.common.time.date",
 				"args": {
-					"format": "%A, %d %B %Y %H:%m"
+					"format": "%A, %d %B %Y"
 				}
 			},
 			{
@@ -17,6 +15,9 @@
 					"format": "%H:%M",
 					"istime": true
 				}
+			},
+			{
+				"function": "powerline.segments.common.net.hostname"
 			}
 		]
 	}

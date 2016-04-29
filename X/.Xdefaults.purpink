@@ -28,7 +28,7 @@ urxvt.cutchars:        `()'*<>[]{|}"
 urxvt*font:       xft:DejaVu Sans Mono for Powerline:size=8:antialias=true:hinting=true,xft:Symbola:pixelsize=8:antialias=true:hinting=true
 
 !  - pseudo transparency
-urxvt*shading:    5
+urxvt*shading:    8
 urxvt*transparent:true
 
 !urxvt*depth:		5
